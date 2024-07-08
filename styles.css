@@ -5,7 +5,9 @@ body {
 
 .header {
     background: #1F2937;
-    padding: 10px 280px 90px ;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
 }
 
 .logo {
@@ -16,9 +18,10 @@ body {
 
 .top {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 90px;
     padding-top: 15px;
+    justify-content: center;
+    gap: 350px;
 }
 
 ul {
@@ -49,7 +52,8 @@ a {
 
 .bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 35px;
 }
 
 .main {
@@ -94,7 +98,7 @@ a {
     font-weight: extra-bold;
     font-size: 36px;
     color: #1F2937;
-    margin: 50px;
+    margin: 40px;
 }
 
 .subtext li {
@@ -119,4 +123,8 @@ a {
 
 .subtext > ul {
     gap: 30px;
+}
+
+.quote {
+    display: flex;
 }
