@@ -1,12 +1,11 @@
 body {
     margin: 0;
-    font-family: Roboto, sans-serif;
-
+    font-family: Arial, Roboto, sans-serif;
 }
 
 .header {
     background: #1F2937;
-    padding: 10px 280px 115px ;
+    padding: 10px 280px 90px ;
 }
 
 .logo {
@@ -18,7 +17,7 @@ body {
 .top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
     padding-top: 15px;
 }
 
@@ -36,9 +35,14 @@ a {
     color: #93969d;
 }
 
-.subtext {
+.description,
+  .subtext {
     font-size: 18px;
     color: #93969D;
+
+}
+
+.description {
     width: 425px;
     height: 56px;
 }
@@ -68,7 +72,7 @@ a {
     height: 30px;
     width: 90px;
     border-radius: 10px;
-    border: 2px #3882F6;
+    border: 2px solid #3882F6;
     font-weight: bold;
 }
 
@@ -76,4 +80,43 @@ a {
     height: 200px;
     width: 450px;
     text-align: center;
+}
+
+.subtext img {
+    width: 145px;
+    height: 145px;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
+
+.info {
+    text-align: center;
+    font-weight: extra-bold;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.subtext li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin-top: 15px;
+    width: 145px;
+    height: 100px;
+    text-align: center;
+}
+
+.subtext {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.subtext > ul {
+    gap: 30px;
 }
