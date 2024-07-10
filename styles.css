@@ -119,6 +119,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 40px;
 }
 
 .subtext > ul {
@@ -127,4 +128,62 @@ a {
 
 .quote {
     display: flex;
+    flex-direction: column;
+    background-color: #d4d7df;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #35404e;
+    font-weight: 200px;
+    width: 55%;
+    height: 200px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 35%;
+}
+
+.action {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    box-sizing: border-box;
+    background-color: #3882F6;
+    width: 60%;
+    height: 120px;
+    border-radius: 8px;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+.small-title {
+    font-weight: bold;
+    color: #D4D7DF;
+    font-size: 20px;
+}
+
+.small-text {
+    color: #D4D7DF;
+}
+
+.action button {
+    background-color: #3882F6;
+    border: 2px solid #d4d7df;
+    border-radius: 8px;
+    color: #D4D7DF;
+    font-weight: bold;
 }
