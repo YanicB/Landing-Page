@@ -187,3 +187,13 @@ a {
     color: #D4D7DF;
     font-weight: bold;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #D4D7DF;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
